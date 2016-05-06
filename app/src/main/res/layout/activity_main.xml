@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.androidhackslayout.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_introduce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这里将收集 Android 布局相关的一些技巧（窍门），以及关于布局的改进和优化。" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack1 使用 weight 属性实现视图的居中显示"
+        android:id="@+id/btn_hack1"
+        android:layout_below="@+id/tv_introduce"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick"/>
+
+</RelativeLayout>
