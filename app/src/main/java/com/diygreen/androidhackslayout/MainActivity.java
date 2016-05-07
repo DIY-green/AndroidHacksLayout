@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_hack1:
                 overlay(Hack1Activity.class);
                 break;
+            case R.id.btn_hack2:
+                overlay(Hack2Activity.class);
+                break;
         }
     }
 
