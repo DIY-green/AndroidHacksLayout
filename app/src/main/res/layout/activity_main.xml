@@ -37,4 +37,26 @@
         android:textAllCaps="false"
         android:onClick="onClick" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack3 使用&lt;merge />标签减少布局层级"
+        android:id="@+id/btn_hack3"
+        android:layout_below="@+id/btn_hack2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hack4 使用ViewStub实现延迟加载"
+        android:id="@+id/btn_hack4"
+        android:layout_below="@+id/btn_hack3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAllCaps="false"
+        android:onClick="onClick" />
+
 </RelativeLayout>
