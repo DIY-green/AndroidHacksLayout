@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.diygreen.androidhackslayout.Hack5Activity">
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#FF0000" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FF00" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:background="#0000FF" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="merge 做根标签使用 \nmargin 实现扑克牌布局效果"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+</merge>

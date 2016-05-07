@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.diygreen.androidhackslayout.view.CascadeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cascade="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    tools:context="com.diygreen.androidhackslayout.Hack5Activity">
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        cascade:layout_vertical_spacing="90dp"
+        android:background="#FF0000" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#00FF00" />
+    <View
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:background="#0000FF" />
+</com.diygreen.androidhackslayout.view.CascadeLayout>

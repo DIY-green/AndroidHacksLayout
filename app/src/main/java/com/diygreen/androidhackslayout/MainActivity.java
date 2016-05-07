@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_hack4:
                 overlay(Hack4Activity.class);
                 break;
+            case R.id.btn_hack5:
+                overlay(Hack5Activity.class);
+                break;
         }
     }
 
